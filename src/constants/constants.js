@@ -15,8 +15,8 @@ export const projects = [
       "Mamaearth is an online retailer that specializes in organic products that are best for babies, their mothers, grandparents, and others.",
     image: "/images/2.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://github.com/Aman974/mamaearth1",
-    visit: "#",
+    source: "https://github.com/Aman974/mamearth1",
+    visit: "https://mamearth1.vercel.app/",
     id: 1,
   },
 ];
