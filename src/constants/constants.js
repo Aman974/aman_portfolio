@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Clone of Tanishq jewellery. Tanishq is a brand of jewellery retail stores in India. It's a fully functional clone with the both frontend and backend work",
     image: "/images/1.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "MongoDB", "NodeJS", "ExpressJS"],
+    tags: ["MongoDB", "NodeJS", "ExpressJS"],
     source: "https://github.com/Aman974/Tanishq",
     visit: "https://tanishq-livid.vercel.app/homepage.html",
     id: 0,
