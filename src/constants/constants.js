@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/1.jpg",
     tags: ["HTML", "CSS", "JavaScript", "MongoDB", "NodeJS", "ExpressJS"],
     source: "https://github.com/Aman974/Tanishq",
-    visit: "#",
+    visit: "https://tanishq-livid.vercel.app/homepage.html",
     id: 0,
   },
   {
@@ -20,6 +20,5 @@ export const projects = [
     id: 1,
   },
 ];
-
 
 // git commit
