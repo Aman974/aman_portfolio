@@ -15,7 +15,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
@@ -145,7 +145,7 @@ export const LinkColumn = styled.div`
 export const LinkTitle = styled.h2`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 24px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
