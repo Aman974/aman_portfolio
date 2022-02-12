@@ -14,7 +14,7 @@ export function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_l6dr7wn",
+      "service_l6dr7wn",  
       "template_dg0mqdo",   
       e.target,
       "user_GKYbobyIIhgB9oa8GsMC9"
