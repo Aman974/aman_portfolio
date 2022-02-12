@@ -17,7 +17,7 @@ export function Contact() {
       "service_l6dr7wn",  
       "template_dg0mqdo",   
       e.target,
-      "user_GKYbobyIIhgB9oa8GsMC9"
+      "user_MRdjWrc73Wwk7OtWZZspW"
     ).then(res => `return <h1>Thanks for connecting<h1/>` )
       .catch(err => console.log(err))
   };
