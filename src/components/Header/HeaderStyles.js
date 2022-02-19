@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   display: grid;
-  // position: fixed;
+  position: fixed;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
