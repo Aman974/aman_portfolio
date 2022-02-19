@@ -33,7 +33,7 @@ const Timeline = () => {
         Passionate software engineer, with strong design, problem-solving skills
         and in depth knowledge of Javascript, NodeJS, ExpressJS and MongoDB,
         seeking to work with a reputed technology driven firm.
-        My interests are reading books, trekking and gymming.
+        My interests are reading books, trekking and gymming,
         and this activity prepares me for real life problems.
 
       </SectionText>
