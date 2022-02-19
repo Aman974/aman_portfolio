@@ -28,6 +28,7 @@ export const Span = styled.span`
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
+  position: fixed
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -37,7 +38,7 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-
+  
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -47,6 +48,7 @@ export const Div2 = styled.div`
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
+  position: fixed
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -58,6 +60,7 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
+  position: fixed
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
@@ -76,6 +79,7 @@ export const ContactDropDown = styled.button`
   border: none;
   display: flex;
   position: relative;
+  position: fixed
   background: none;
   font-size: 1.7rem;
 
@@ -102,6 +106,7 @@ export const ContactDropDown = styled.button`
 export const NavProductsIcon = styled(IoIosArrowDropdown)`
   margin-left: 8px;
   display: flex;
+  position: fixed
   align-self: center;
   transition: 0.3s ease;
   opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
@@ -121,6 +126,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
+  position: fixed
   color: white;
   border-radius: 50px;
   padding: 8px;
