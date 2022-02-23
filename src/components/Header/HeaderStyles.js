@@ -20,7 +20,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
-  font-size: 4rem;
+  font-size: 28px;
   color: magenta;
   font-weight: bold;
 `;
