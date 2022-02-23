@@ -35,7 +35,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 18px;
+		font-size: 13px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
