@@ -1,4 +1,6 @@
 import { ThemeProvider } from 'styled-components';
+// import { ThemeProvider } from '@material-ui/core/styles';
+
 
 import theme from "../themes/default";
 import GlobalStyles from './globals';
@@ -11,3 +13,5 @@ const Theme = ({ children }) => (
 );
 
 export default Theme;
+
+
