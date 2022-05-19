@@ -1,26 +1,22 @@
 import React from "react";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Img = styled.img`
-border: 1px solid white;
-display: flex;
-align-items: center;
-height: 100%;
-width: 100%;
-border-radius: 50%;
-@media(max-width:374px){
-  border: none;
-  width: 75%;
-  height: 75%;
-  margin-bottom:100px;
-  margin-right:200px;
-}
-`
-
-
-
-
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  @media (max-width: 374px) {
+    border: none;
+    width: 75%;
+    height: 75%;
+    margin-bottom: 100px;
+    margin-right: 200px;
+  }
+`;
 
 const BackgroundAnimation = () => (
   <div style={{ position: "relative" }}>
@@ -381,6 +377,7 @@ const BackgroundAnimation = () => (
         </linearGradient>
       </defs>
     </svg>
+
     <div
       style={{
         display: "flex",
@@ -392,22 +389,21 @@ const BackgroundAnimation = () => (
         position: "absolute",
         top: 100,
         left: 150,
+        // border: "3px solid yellow",
       }}
     >
-      
-        <Img
-          src="./images/myPic.jpeg"
-          alt="Aman Profile Pic"
-          // style={{
-          //   border: "4px solid white",
-          //   display: "flex",
-          //   height: "100%",
-          //   width: "100%",
-          //   borderRadius: "50%",
-          //   alignItems: "center",
-          // }}
-        />
-      
+      <Img
+        src="./images/myPic.jpeg"
+        alt="Aman Profile Pic"
+        // style={{
+        //   border: "4px solid white",
+        //   display: "flex",
+        //   height: "100%",
+        //   width: "100%",
+        //   borderRadius: "50%",
+        //   alignItems: "center",
+        // }}
+      />
     </div>
   </div>
 );
